@@ -1,4 +1,4 @@
-FROM kempkensteffen/nginx-symfony:7.2-prod
+FROM dreitausendsassa/nginx-symfony:7.2-prod
 
 RUN apk add --no-cache phpunit php7.2-xdebug zsh git
 
